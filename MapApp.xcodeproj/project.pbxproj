@@ -14,6 +14,7 @@
 		B5C3D6DF2D0AC62A00BD6C5A /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C3D6DE2D0AC62A00BD6C5A /* Location.swift */; };
 		B5C3D6E22D0AC6F000BD6C5A /* LocationsDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C3D6E12D0AC6F000BD6C5A /* LocationsDataService.swift */; };
 		B5C3D6E42D0AC7D800BD6C5A /* LocationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C3D6E32D0AC7D800BD6C5A /* LocationsView.swift */; };
+		B5C3D6E62D0AD34600BD6C5A /* LocationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C3D6E52D0AD34600BD6C5A /* LocationsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		B5C3D6DE2D0AC62A00BD6C5A /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		B5C3D6E12D0AC6F000BD6C5A /* LocationsDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocationsDataService.swift; path = "../../../../../../Downloads/b6dc374-3b0b-6bdc-3b7f-f7ce4c005a_SwiftfulMapApp-Downloads/LocationsDataService.swift"; sourceTree = "<group>"; };
 		B5C3D6E32D0AC7D800BD6C5A /* LocationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsView.swift; sourceTree = "<group>"; };
+		B5C3D6E52D0AD34600BD6C5A /* LocationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 		B5C3D6DD2D0AC60100BD6C5A /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				B5C3D6E52D0AD34600BD6C5A /* LocationsViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5C3D6E22D0AC6F000BD6C5A /* LocationsDataService.swift in Sources */,
+				B5C3D6E62D0AD34600BD6C5A /* LocationsViewModel.swift in Sources */,
 				B5C3D6CE2D0AC18600BD6C5A /* ContentView.swift in Sources */,
 				B5C3D6E42D0AC7D800BD6C5A /* LocationsView.swift in Sources */,
 				B5C3D6DF2D0AC62A00BD6C5A /* Location.swift in Sources */,
